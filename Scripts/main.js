@@ -16,11 +16,11 @@ function setUserName()
 	{
 		if (myName === "Mario")
 		{
-			myImage.setAttribute("src", "images/hellomario.jpg");
+			myImage.setAttribute("src", "Images/hellomario.jpg");
 		}
 		else
 		{
-			myImage.setAttribute("src", "images/logo1.png");
+			myImage.setAttribute("src", "Images/logo1.png");
 		}
 		
 		localStorage.setItem("name", myName);
