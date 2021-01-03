@@ -38,7 +38,7 @@ myImage.onclick = function()
 {
 	var mySrc = myImage.getAttribute("src");
 	
-	if (mySrc == "images/hellomario.jpg")
+	if (mySrc == "Images/hellomario.jpg")
 	{
 		hellomario.play();
 	}
@@ -54,11 +54,11 @@ else
 	var storedName = localStorage.getItem("name");
 	if (storedName === "Mario")
 	{
-			myImage.setAttribute("src", "images/hellomario.jpg");
+			myImage.setAttribute("src", "Images/hellomario.jpg");
 	}
 	else
 	{
-			myImage.setAttribute("src", "images/logo1.png");
+			myImage.setAttribute("src", "Images/logo1.png");
 	}
 	myHeading.textContent = "Hello, " + storedName;
 }
